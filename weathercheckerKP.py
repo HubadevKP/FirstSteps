@@ -19,4 +19,4 @@ if not rain and not wind:
 print(".")
 print(".")
 print(".")
-print('Whetherchecker ver.0.00.1 by @Hubadev')
+print('WeathercheckerKP ver.0.00.01 by @Hubadev')
