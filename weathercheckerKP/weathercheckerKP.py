@@ -1,4 +1,4 @@
-# WeathercheckerKP ver.0.00.01
+# WeathercheckerKP ver.0.00.0.1
 # print, input, if, assigments, bool, com, comparisons
 # Any input = True // No input == False
 # Code inspired by https://automatetheboringstuff.com/chapter2/
@@ -19,4 +19,4 @@ if not rain and not wind:
 print(".")
 print(".")
 print(".")
-print('WeathercheckerKP ver.0.00.01 by @Hubadev')
+print('WeathercheckerKP ver.0.00.0.1 by @Hubadev')
