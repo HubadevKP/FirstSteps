@@ -2,7 +2,7 @@
 # Changes:
 # => More branches in line 14
 # => New variable "umb" define by new input
-# print, input, if, assigments, bool, comparisons, basic branches.
+# print, input, if, else, assigments, bool, comparisons, basic branches
 # Any input = True // No input == False
 # Code inspired by https://automatetheboringstuff.com/chapter2/
 # Code under developed :)
