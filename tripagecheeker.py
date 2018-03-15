@@ -1,5 +1,5 @@
 # My own interpretation of code what i found on https://automatetheboringstuff.com/chapter1/.
-# I change that code to pretending that he got a error(based on your inpuy) and if you to old, saddly, you not allow to trip
+# I change that code to pretending that he got a error(based on your input) and if you to old, saddly, you not allow to trip
 # + some data type changes.
 
 
