@@ -16,4 +16,6 @@ print('What is your age?')
 myAge = input(int)
 if int(myAge) >= 20:
     print('To old for school trip... anyway:')
+if int(myAge) <= 20:
+    print('Welcome abord young being! anyway:')
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
