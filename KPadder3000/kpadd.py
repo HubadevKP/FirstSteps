@@ -3,7 +3,7 @@
 # print, input, def, assigments, comparisons, basic branches, while
 # Just numbers as inputs
 # Code inspired by https://www.programiz.com/python-programming/examples/calculator
-# Code under developed :) KPadder like rest of projects in "FirstSteps" are fremes for my advanture with python.
+# Code under developed :) KPadder like rest of projects in "FirstSteps" are freme's for my advanture with python. Someday that will be a fine calculator app.
 # ToDo: 
 # => Add rest of basic calculation
 # => Create text menu with calculation chosen based on https://www.programiz.com/python-programming/examples/calculator
