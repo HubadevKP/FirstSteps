@@ -1,0 +1,32 @@
+
+# KPadder ver.0.00.0.1
+# print, input, def, assigments, comparisons, basic branches, while
+# Just numbers as inputs
+# Code inspired by https://www.programiz.com/python-programming/examples/calculator
+# Code under developed :) KPadder like rest of projects in "FirstSteps" are fremes for my advanture with python.
+# ToDo: 
+# => Add rest of basic calculation
+# => Create text menu with calculation chosen based on https://www.programiz.com/python-programming/examples/calculator
+# => Output save as txt file.
+
+
+def a(x, y):
+    return x + y
+b = 0
+
+
+while b < 1:
+    print('Hello! Is KPadder3000')
+    print()
+    print('You can add two numbers:')
+    c = float(input('First Number: '))
+    d = float(input('Secend Number: '))
+    print('Result is: ', str(a(c, d)))
+    for i in range(3):
+        print('.')
+        b += 1
+    print()
+    print('KPadder3000')
+
+
+
