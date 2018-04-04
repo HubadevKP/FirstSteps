@@ -1,6 +1,8 @@
-#Cal300KP ver0.00.01 - 04.04.2018
+#Cal300KP ver0.00.02 - 04.04.2018
 #Main file for Cal300KP
-#TO-DO:-> loop back to choice after calculation, export outputs to other file.
+#TO-DO:-> loop back to choice after calculation,
+#Changelog: 0.00.01 -> 0.00.02:
+#-Saving results to txt file.
 
 from defcal import *
 
@@ -22,14 +24,28 @@ num2 = float(input("Enter secend number:"))
 
 if choice == "1":
     print(add(num1, num2))
+    f = open('resultstxt.txt', 'w')
+    f.write((str(add(num1, num2))))
+    f.close()
 elif choice == "2":
     print(sub(num1, num2))
+    f = open('resultstxt.txt', 'w')
+    f.write((str(min(num1, num2))))
+    f.close()
 elif choice == "3":
     print(multi(num1, num2))
+    f = open('resultstxt.txt', 'w')
+    f.write((str(multi(num1, num2))))
+    f.close()
 elif choice == "4":
     print(div(num1, num2))
+    f = open('resultstxt.txt', 'w')
+    f.write((str(div(num1, num2))))
+    f.close()
 elif choice == "5":
     print(pit(num1, num2))
+    f = open('resultstxt.txt', 'w')
+    f.write((str(pit(num1, num2))))
 else:
    print("Invalid input")
 print("###CAL300KP###")
