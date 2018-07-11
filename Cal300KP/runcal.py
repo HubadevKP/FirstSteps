@@ -26,27 +26,27 @@ while logo < 4:
 
     if choice == "1":
         print(add(num1, num2))
-        f = open('resultstxt.txt', 'w')
+        f = open('resultADD.txt', 'w')
         f.write((str(add(num1, num2))))
         f.close()
     elif choice == "2":
         print(sub(num1, num2))
-        f = open('resultstxt.txt', 'w')
+        f = open('resultSUB.txt', 'w')
         f.write((str(min(num1, num2))))
         f.close()
     elif choice == "3":
         print(multi(num1, num2))
-        f = open('resultstxt.txt', 'w')
+        f = open('resultMULTI.txt', 'w')
         f.write((str(multi(num1, num2))))
         f.close()
     elif choice == "4":
         print(div(num1, num2))
-        f = open('resultstxt.txt', 'w')
+        f = open('resultsDIV.txt', 'w')
         f.write((str(div(num1, num2))))
         f.close()
     elif choice == "5":
         print(pit(num1, num2))
-        f = open('resultstxt.txt', 'w')
+        f = open('resultPIT.txt', 'w')
         f.write((str(pit(num1, num2))))
     elif choice == "6":
         logo += 1
