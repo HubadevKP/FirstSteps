@@ -19,7 +19,7 @@ while logo < 4:
     print("4.Divide")
     print("5.Pithaghoras Statment")
     print("6.End")
-    choice = input("Enter choice(1/2/3/4/5):")
+    choice = input("Enter choice(1/2/3/4/5/6):")
 
     num1 = float(input("Enter first number:"))
     num2 = float(input("Enter secend number:"))
